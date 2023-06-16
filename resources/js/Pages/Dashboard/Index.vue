@@ -2,18 +2,17 @@
   <div>
     <Head title="Dashboard" />
     <h1 class="mb-8 text-3xl font-bold">Dashboard</h1>
-    <p class="mb-8 leading-normal">Hey there! Welcome to Ping CRM, a demo app designed to help illustrate how <a class="text-indigo-500 hover:text-orange-600 underline" href="https://inertiajs.com">Inertia.js</a> works.</p>
     <!-- component -->
     <div class="flex flex-col md:flex-row justify-center">
       <div class="md:w-11/12">
         <div class="flex md:flex-row space-x-8">
-          <div class="shadow-md p-4">
+          <div class="shadow-md p-4 bg-white">
             <div class="">
               <div class="flex flex-col">
                 <div class="flex space-x-8 w-56">
                   <div class="">
                     <div class="uppercase text-sm text-gray-400">
-                      Occupied
+                      Open Tickets
                     </div>
                     <div class="mt-1">
                       <div class="flex space-x-2 items-center">
@@ -35,18 +34,18 @@
               </div>
             </div>
           </div>
-          <div class="shadow-md p-4">
+          <div class="shadow-md p-4 bg-white">
             <div class="">
               <div class="flex flex-col">
                 <div class="flex space-x-8 w-56">
                   <div class="">
                     <div class="uppercase text-sm text-gray-400">
-                      Revenue
+                      Current Month Billing
                     </div>
                     <div class="mt-1">
                       <div class="flex space-x-2 items-center">
                         <div class="text-2xl">
-                          $30,000
+                          $212
                         </div>
                         <div class="text-xs text-red-500 bg-red-200 rounded-md p-1">
                           -4.5%
@@ -63,18 +62,18 @@
               </div>
             </div>
           </div>
-          <div class="shadow-md p-4">
+          <div class="shadow-md p-4 bg-white">
             <div class="">
               <div class="flex flex-col">
                 <div class="flex space-x-8 w-56">
                   <div class="">
                     <div class="uppercase text-sm text-gray-400">
-                      Unpaid
+                      Last Month Billing
                     </div>
                     <div class="mt-1">
                       <div class="flex space-x-2 items-center">
                         <div class="text-2xl">
-                          $30,000
+                          $403
                         </div>
                         <div class="text-xs text-green-800 bg-green-200 rounded-md p-1">
                           +4.5%
@@ -91,13 +90,13 @@
               </div>
             </div>
           </div>
-          <div class="shadow-md p-4">
+          <div class="shadow-md p-4 bg-white">
             <div class="">
               <div class="flex flex-col">
                 <div class="flex space-x-8 w-56">
                   <div class="">
                     <div class="uppercase text-sm text-gray-400">
-                      Value
+                      Company Cost Value
                     </div>
                     <div class="mt-1">
                       <div class="flex space-x-2 items-center">

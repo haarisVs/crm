@@ -17,13 +17,13 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $account = Account::create(['name' => 'Acme Corporation']);
+        $account = Account::create(['name' => 'Sales Emerge | Sales and Distribution App']);
 
         User::factory()->create([
             'account_id' => $account->id,
-            'first_name' => 'John',
-            'last_name' => 'Doe',
-            'email' => 'johndoe@example.com',
+            'first_name' => 'Aquib',
+            'last_name' => 'Shaik',
+            'email' => 'aquib@gmail.com',
             'password' => 'secret',
             'owner' => true,
         ]);

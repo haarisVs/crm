@@ -1,7 +1,7 @@
 <template>
   <div>
     <Head title="Organizations" />
-    <h1 class="mb-8 text-3xl font-bold">Organizations</h1>
+    <h1 class="mb-8 text-3xl font-bold">Companies</h1>
     <div class="flex items-center justify-between mb-6">
       <search-filter v-model="form.search" class="mr-4 w-full max-w-md" @reset="reset">
         <label class="block text-gray-700">Trashed:</label>
@@ -13,7 +13,7 @@
       </search-filter>
       <Link class="btn-indigo" href="/organizations/create">
         <span>Create</span>
-        <span class="hidden md:inline">&nbsp;Organization</span>
+        <span class="hidden md:inline">&nbsp;Companies</span>
       </Link>
     </div>
     <div class="bg-white rounded-md shadow overflow-x-auto">
